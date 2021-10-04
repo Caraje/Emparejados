@@ -1,0 +1,31 @@
+
+
+.title-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title-group__title{
+    font-family: $titles;
+    color: $red;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px $white-blue;
+}
+
+
+.title-group__game {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-group__game__mark__text {
+    font-size: 1.5rem;
+    & span {
+        color: $white-blue;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}

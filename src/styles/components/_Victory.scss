@@ -1,0 +1,51 @@
+.victory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.victory__title{
+
+    font-family: $titles;
+    color: $red;
+    font-size: 8rem;
+    text-shadow: 3px 3px $white-blue;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.victory__score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.victory__score__msg{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.victory__score__group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.victory__score__group__data{
+
+    font-size: 1.5rem;
+    text-align: center;
+    margin: .8em;
+    & span {
+        color: $black;
+        font-weight: 800;
+    text-shadow: 1px 1px $white-blue;
+
+    }
+}

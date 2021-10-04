@@ -1,0 +1,13 @@
+
+.grid-game {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+    gap: .5em;
+    padding: 2em;
+    margin: 2em;
+    line-height: 0;
+    background-color: $blue;
+    border-radius: 10px;
+    border: 3px solid $red;
+}
